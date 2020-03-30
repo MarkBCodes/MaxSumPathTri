@@ -11,7 +11,7 @@ namespace MaxSumPathTri
         {
             //takes in an array of numbers
             //@ = string literal
-            int[,] list = new int[3, 4]; // multidimensional array, 3 rows and 4 columns. 
+            int[,] Triangle = new int[3, 4]; // multidimensional array, 3 rows and 4 columns. 
             //needs to be refactored in order to display the triangle correctly if I want.
             string input = 
                @"1
@@ -23,12 +23,12 @@ namespace MaxSumPathTri
             //values of rowTri are split to make the triangle
             for (int i = 0; i < rowTri.Length; i++)
             {
-                var strArr = rowTri[i].Trim().Split(' ');
+                var rowElements = rowTri[i].Trim().Split(' ');
 
-                for (int j = 0; j < strArr.Length; j++)
+                for (int j = 0; j < rowElements.Length; j++)
                 {
-                    int number = Convert.ToInt32(strArr[j]);
-                    list[i, j] = number;
+                    int number = Convert.ToInt32(rowElements[j]);
+                    Triangle[i, j] = number;
                 }
                 
             }
@@ -38,10 +38,10 @@ namespace MaxSumPathTri
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    list[i, j] = Math.Max(list[i, j] + list[i + 1, j], list[i, j] + list[i + 1, j + 1]);
+                    Triangle[i, j] = Math.Max(Triangle[i, j] + Triangle[i + 1, j], Triangle[i, j] + Triangle[i + 1, j + 1]);
                 }
             }
-            Console.WriteLine(string.Format("Maximum total: {0}", list[0, 0]));            
+            Console.WriteLine(string.Format("Maximum total: {0}", Triangle[0, 0]));            
         }
     }
 }
