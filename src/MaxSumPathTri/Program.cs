@@ -13,10 +13,9 @@ namespace MaxSumPathTri
             //@ = string literal
             int[,] triangle = new int[4, 4]; // multidimensional array, 3 rows and 4 columns. 
             string input = 
-               @"3
-               7 4
-               2 4 6
-               8 5 9 3";
+               @"1
+               1 2
+               1 3 4";
             var rowTri = input.Trim().Split('\n');
 
             for (int i = 0; i < rowTri.Length; i++)
