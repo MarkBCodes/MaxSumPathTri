@@ -28,7 +28,6 @@ namespace MaxSumPathTri
                     int number = Convert.ToInt32(rowElements[j]);
                     triangle[i, j] = number;
                 }
-                
             }
 
             //calculation to find the max total
