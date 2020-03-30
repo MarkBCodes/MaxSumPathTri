@@ -12,7 +12,6 @@ namespace MaxSumPathTri
             //takes in an array of numbers
             //@ = string literal
             int[,] triangle = new int[3, 4]; // multidimensional array, 3 rows and 4 columns. 
-            //needs to be refactored in order to display the triangle correctly if I want.
             string input = 
                @"1
                1 2
