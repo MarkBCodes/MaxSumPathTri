@@ -11,12 +11,15 @@ namespace MaxSumPathTri
             //takes in an array of numbers
             //@ symbol used to create a multiline array
             int[,] list = new int[3, 4];
-            string input = @"1
+            //needs to be refactored in order to display the triangle correctly if I want.
+            string input = 
+               @"1
                1 2
                1 3 4";
-            var charArray = input.Split('\n');
+            var charArray = input.Trim().Split('\n').ToArray();
+            //Console.WriteLine(input);
 
-            //values of charArray are split to make the triangla
+            //values of charArray are split to make the triangle
             for (int i = 0; i < charArray.Length; i++)
             {
                 var numArr = charArray[i].Trim().Split(' ');
@@ -27,7 +30,6 @@ namespace MaxSumPathTri
                     list[i, j] = number;
                 }
             }
-            Console.WriteLine(input);
 
             //calculation to find the max total
             for (int i = 1; i >= 0; i--)
