@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace MaxSumPathTri
 {
@@ -29,6 +30,7 @@ namespace MaxSumPathTri
                     int number = Convert.ToInt32(numArr[j]);
                     list[i, j] = number;
                 }
+                
             }
 
             //calculation to find the max total
@@ -39,7 +41,7 @@ namespace MaxSumPathTri
                     list[i, j] = Math.Max(list[i, j] + list[i + 1, j], list[i, j] + list[i + 1, j + 1]);
                 }
             }
-            Console.WriteLine(string.Format("Maximum total: {0}", list[0, 0]));
+            Console.WriteLine(string.Format("Maximum total: {0}", list[0, 0]));            
         }
     }
 }
