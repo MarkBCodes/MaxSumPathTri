@@ -35,7 +35,10 @@ namespace MaxSumPathTri
             {
                 for (int j = 0; j < 3; j++)
                 {
-                    triangle[i, j] = Math.Max(triangle[i, j] + triangle[i + 1, j], triangle[i, j] + triangle[i + 1, j + 1]);
+                    //extration is the technique
+                    var firstNumber = (triangle[i, j] + triangle[i + 1, j]);
+                    var secondNumber = (triangle[i, j] + triangle[i + 1, j + 1]);
+                    triangle[i, j] = Math.Max(firstNumber, secondNumber);
                 }
             }
             Console.WriteLine(string.Format("Maximum total: {0}", triangle[0, 0]));            

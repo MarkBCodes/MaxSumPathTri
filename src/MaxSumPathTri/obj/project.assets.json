@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\MaxSumPathTri\\MaxSumPathTri.csproj",
+      "projectUniqueName": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\src\\MaxSumPathTri\\MaxSumPathTri.csproj",
       "projectName": "MaxSumPathTri",
-      "projectPath": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\MaxSumPathTri\\MaxSumPathTri.csproj",
+      "projectPath": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\src\\MaxSumPathTri\\MaxSumPathTri.csproj",
       "packagesPath": "C:\\Users\\drgnb\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\MaxSumPathTri\\obj\\",
+      "outputPath": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\src\\MaxSumPathTri\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"

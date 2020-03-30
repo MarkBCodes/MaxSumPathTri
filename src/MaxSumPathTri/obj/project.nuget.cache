@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rIzl6wrJeJi2wqL9RpSDvwpWLNz9tC1751nqbz71swDvp2IQqdb+3HEDoz0lOFwfW/mymXAo5AlWsO9GY3iKBg==",
+  "dgSpecHash": "yA/L+5bp1Htp6RD5sk4h9aMVOSXMVYfnoUrctodu2/SZhfeJNRGO/ieGYDDDGBn1TlUvQz1npJPiE9iqXOs+CA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\MaxSumPathTri\\MaxSumPathTri.csproj",
+  "projectFilePath": "C:\\Users\\drgnb\\Desktop\\repos\\MaxSumPathTri\\src\\MaxSumPathTri\\MaxSumPathTri.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
