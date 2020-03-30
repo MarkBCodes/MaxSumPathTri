@@ -17,17 +17,17 @@ namespace MaxSumPathTri
                @"1
                1 2
                1 3 4";
-            var rowTri = input.Trim().Split('\n').ToArray();
+            var rowTri = input.Trim().Split('\n');
             //Console.WriteLine(input);
 
             //values of rowTri are split to make the triangle
             for (int i = 0; i < rowTri.Length; i++)
             {
-                var numArr = rowTri[i].Trim().Split(' ');
+                var strArr = rowTri[i].Trim().Split(' ');
 
-                for (int j = 0; j < numArr.Length; j++)
+                for (int j = 0; j < strArr.Length; j++)
                 {
-                    int number = Convert.ToInt32(numArr[j]);
+                    int number = Convert.ToInt32(strArr[j]);
                     list[i, j] = number;
                 }
                 
