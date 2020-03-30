@@ -11,3 +11,16 @@ C:\Users\drgnb\Desktop\repos\MaxSumPathTri\MaxSumPathTri\obj\Debug\netcoreapp3.1
 C:\Users\drgnb\Desktop\repos\MaxSumPathTri\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.dll
 C:\Users\drgnb\Desktop\repos\MaxSumPathTri\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.pdb
 C:\Users\drgnb\Desktop\repos\MaxSumPathTri\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.genruntimeconfig.cache
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\bin\Debug\netcoreapp3.1\MaxSumPathTri.exe
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\bin\Debug\netcoreapp3.1\MaxSumPathTri.deps.json
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\bin\Debug\netcoreapp3.1\MaxSumPathTri.runtimeconfig.json
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\bin\Debug\netcoreapp3.1\MaxSumPathTri.runtimeconfig.dev.json
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\bin\Debug\netcoreapp3.1\MaxSumPathTri.dll
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\bin\Debug\netcoreapp3.1\MaxSumPathTri.pdb
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.csprojAssemblyReference.cache
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.csproj.CoreCompileInputs.cache
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.AssemblyInfoInputs.cache
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.AssemblyInfo.cs
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.dll
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.pdb
+C:\Users\drgnb\Desktop\repos\MaxSumPathTri\src\MaxSumPathTri\obj\Debug\netcoreapp3.1\MaxSumPathTri.genruntimeconfig.cache
